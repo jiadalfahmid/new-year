@@ -6,8 +6,9 @@
   box-sizing: border-box;
 }
 
-.contianer{
+.container{
   max-width: 1320px;
+  margin: auto;
 }
 /* global CSS ends */
 
@@ -25,11 +26,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 1320px;
   height: 600px;
   border-radius: 16px;
   padding: 177px 344px;
-  margin: 50px auto 0px;
+  margin-top: 50px;
 }
 
 .banner-container h1{
@@ -92,4 +92,94 @@ margin-bottom: 48px;
 }
 /* offer section ends */
 
+/* party section starts */
+.party{
+  background: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url('../images/celebration.png');
+  background-repeat: no-repeat;
+  background-size: coner;
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 600px;
+  border-radius: 16px;
+  gap: 20px;
+  margin-bottom: 80px;
+}
+
+.col-left{
+  max-width: 52%;
+}
+.col-left h2{
+font-family: Merriweather;
+font-size: 64px;
+font-weight: 900;
+line-height: 88px;
+letter-spacing: 11%;
+margin-bottom: 24px;
+}
+
+.col-left p{
+  color: rgba(255, 255, 255, 0.8);
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+margin-bottom: 48px;
+}
+
+.col-left .btn{
+  color: #fff;
+  border: none;
+  background: transparent;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.col-right img{
+  padding: 65px 0px;
+}
+/* party section ends */
+/* schedule section starts */
+.schedule {
+  max-width: 100%;
+  height: 500px;
+  border-radius: 16px;
+  background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 46px;
+  text-align: center;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 120px;
+}
+
+.schedule span{
+  color: red; 
+}
+
+.schedule .btn{
+  color: #fff;
+  background-color: red;
+  padding: 16px 32px 16px 32px;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+  margin-top: 48px;
+}
+/* schedule section ends */
 /* main body ends */
