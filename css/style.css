@@ -7,15 +7,11 @@
 }
 
 .contianer{
-  width: 1320px;
+  max-width: 1320px;
 }
 /* global CSS ends */
 
 /* header starts */
-
-/* nav section starts */
-
-/* nav section ends */
 
 /* banner starts */
 .banner-container{
@@ -33,7 +29,7 @@
   height: 600px;
   border-radius: 16px;
   padding: 177px 344px;
-  margin: 50px auto;
+  margin: 50px auto 0px;
 }
 
 .banner-container h1{
@@ -50,7 +46,50 @@ font-size: 32px;
 font-weight: 400;
 line-height: 40px;
 }
-
-
 /* banner ends */
 /* header ends */
+
+/* container section starts */
+
+/* offer section starts */
+.offer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: Inter;
+  margin: 120px auto;
+}
+
+.offer h1{
+  color: rgb(255, 0, 0);
+font-size: 88px;
+font-weight: 700;
+line-height: 107px;
+margin-bottom: 48px;
+}
+
+.offer h2{
+  color: rgb(7, 2, 17);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  margin-bottom: 16px;
+}
+
+.offer p{
+  color: rgb(255, 0, 0);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  margin-bottom: 48px;
+}
+
+.offer img{
+  max-width: 802.9px;
+  max-height: 500px;
+}
+/* offer section ends */
+
+/* main body ends */
