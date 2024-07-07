@@ -302,6 +302,7 @@ font-size: 20px;
 font-weight: 500;
 line-height: 32px;
 margin-bottom: 60px;
+max-width: 70%;
 }
 
 .images{
@@ -321,7 +322,7 @@ margin-bottom: 60px;
 
 .images .discount{
   z-index: 1;
-  
+
 }
 .images .discount img{
   width: 220.05px;
@@ -342,4 +343,53 @@ margin-bottom: 60px;
   background: red;
 }
 /* sale section ends */
+/* portfolio section starts */
+.portfolio {
+  height: 1163px;
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.portfolio .text-container{
+  max-width: 66%;
+}
+
+.portfolio .text-container h3{
+  color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+margin-bottom: 16px;
+}
+.portfolio .text-container h2{
+  color: rgb(7, 2, 17);
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+line-height: 60px;
+letter-spacing: 0%;
+margin-bottom: 22px;
+}
+.portfolio .text-container p{
+  color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+margin-bottom: 48px;
+}
+
+.gallery .portfolio-images{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  width: 424px;
+  height: 450px;
+  border-radius: 16px;
+}
+/* portfolio section ends */
+
+
+
 /* main body ends */
