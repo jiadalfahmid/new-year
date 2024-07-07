@@ -190,7 +190,7 @@ margin-bottom: 48px;
   justify-content: center;
   gap: 70px;
   position: relative;
-  margin-bottom: 120px;
+  margin-bottom: 220px;
 }
 .coming-soon .col1 {
   max-width: 390px;
@@ -263,5 +263,83 @@ margin-top: 15px;
   width: 140px;
 }
 /* coming soon section starts */
+/* sale section starts */
+.sale {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+  height: 1020px;
+  margin-bottom: 57px;
+}
 
+.sale h3{
+  color: rgb(7, 2, 17);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+margin-bottom: 16px;
+}
+
+.sale h1{
+  font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+line-height: 91px;
+margin-bottom: 28px;
+}
+
+.sale h1 span{
+  color: red;
+}
+
+.sale p{
+  color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 500;
+line-height: 32px;
+margin-bottom: 60px;
+}
+
+.images{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.images .giftbox{
+  width: 700px;
+  z-index: 1;
+}
+.images .giftbox img{
+  margin-bottom: -700px;
+  width: 700px;
+}
+
+.images .discount{
+  z-index: 1;
+  
+}
+.images .discount img{
+  width: 220.05px;
+  margin-right: -200px;
+  margin-bottom: -300px;
+}
+
+.images .girl img{
+  width: 500px;
+  margin-bottom: -5px;
+  clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 100% 100%, 0 100%, 0% 80%, 0% 20%);
+}
+
+.sale .platform{
+  height: 229px;
+  width: 100%;
+  border-radius: 16px 0px 16px 16px;
+  background: red;
+}
+/* sale section ends */
 /* main body ends */
