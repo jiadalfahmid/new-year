@@ -96,7 +96,7 @@ margin-bottom: 48px;
 .party{
   background: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url('../images/celebration.png');
   background-repeat: no-repeat;
-  background-size: coner;
+  background-size: cover;
   color: rgb(255, 255, 255);
   display: flex;
   justify-content: center;
@@ -182,4 +182,86 @@ margin-bottom: 48px;
   margin-top: 48px;
 }
 /* schedule section ends */
+/* coming soon section starts */
+.coming-soon{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+  position: relative;
+  margin-bottom: 120px;
+}
+.coming-soon .col1 {
+  max-width: 390px;
+}
+
+.coming-soon .col1 h3{
+  color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+margin-bottom: 15px;
+}
+
+.coming-soon .col1 h2{
+  color: rgb(7, 2, 17);
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+line-height: 60px;
+letter-spacing: 0%;
+text-align: left;
+text-transform: capitalize;
+margin-bottom: 22px;
+}
+.coming-soon .col1 p{
+  color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.coming-soon .col2{
+  box-sizing: border-box;
+  border: 15px solid rgb(255, 0, 0);
+  border-radius: 50%;
+  padding: 37px;
+}
+
+.coming-soon .col2 img{
+  max-width: 463px;
+  max-height: 463px;
+
+}
+
+.coming-soon .col3{
+  margin-bottom: -90px;
+}
+
+.coming-soon .col3 h2{
+  color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+line-height: 58px;
+}
+.coming-soon .col3 p{
+  color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+margin-top: 15px;
+}
+.coming-soon .col3 img{
+  margin-top: 45px;
+  width: 140px;
+}
+/* coming soon section starts */
+
 /* main body ends */
