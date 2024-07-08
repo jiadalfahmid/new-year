@@ -458,3 +458,48 @@ margin-bottom: 48px;
 }
 /* newsletter section ends */
 /* main body ends */
+/* footer starts */
+footer{
+  height: 600px;
+  background-color: black;
+  color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 40px;
+margin-top: 80px;
+padding: 120px 0px;
+}
+
+.footer-text-container{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.footer-text-container .address{
+  max-width: 470px;
+}
+
+.footer-text-container .contact{
+  text-align: left;
+}
+
+footer .icons{
+  display: flex;
+justify-content: center;
+align-items: center;
+gap: 24px;
+padding: 120px 0px;
+}
+
+.icons img{
+  cursor: pointer;
+}
+
+footer .privacy{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+/* footer ends */
